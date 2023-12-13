@@ -14,7 +14,7 @@ Sources used: Man pages, slides
 
 - tls_read(): Check if thread has an LSA by looking thru hash map using modulus, unprotect pages for r/w access, perform readop (in slides), and reprotect pages
 
-Used a simple hash map of fixed size 128 (specified in slides) for global data structure implementation. tls_init() and tls_handle_page_fault() implementations as well as other global variables and data structures are from the slides.
+- Used a simple hash map of fixed size 128 (specified in slides) for global data structure implementation. tls_init() and tls_handle_page_fault() implementations as well as other global variables and data structures are from the slides.
 
 
 Please let me know if there are any bugs! Thank you and enjoy!
